@@ -1,0 +1,8 @@
+.detail-image{
+    transition:transform .5s ease;
+    width: 100%;
+}
+.detail-image:hover{
+    transform: scale(1.1, 1.1);
+    border-radius: 50% ;
+}

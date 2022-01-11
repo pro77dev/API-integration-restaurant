@@ -1,14 +1,14 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react'
+import { Link } from 'react-router-dom'
+import { SearchFoodContext, SelectedFoodsContext } from '../../App'
 import './Navbar.css'
 
 function Navbar() {
+   
     return (
-        <div className='d-flex justify-content-around row text-center p-3'>
+        <div className='d-flex justify-content-around row text-center p-3 '>
             <div className='col-lg-3'>
-               <h3 className='logo-name'>fooD.Hub</h3>
-            </div>
-            <div className='col-lg-3'>
-                <button className="btn stylish-btn">Bangla</button>
+                <Link className='logo-name' to='/'><h3>Food <button className='stylish-btn'> recipE.Hub </button></h3></Link>
             </div>
         </div>
     )

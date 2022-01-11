@@ -8,7 +8,6 @@
     color: #2A5631;
     border: none;
     background-color: white;
-    position: relative;
 }
 
 .linkBtn-detail{
@@ -27,7 +26,3 @@
 }
 
 
-@media screen and (max-width: 768px) {
-    .sidebar {
-    }
-  }
