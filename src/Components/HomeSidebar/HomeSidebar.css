@@ -1,0 +1,28 @@
+
+.sidebar li{
+    margin: 4rem 0px;
+    text-decoration: none;
+}
+
+.link-btn{
+    color: #2A5631;
+    border: none;
+    background-color: white;
+}
+
+.linkBtn-detail{
+    display: none;
+    font-size: 17px !important;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background-color: #2A5631;
+    color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+.link-btn:hover .linkBtn-detail{
+    display: inline;
+}
+
+

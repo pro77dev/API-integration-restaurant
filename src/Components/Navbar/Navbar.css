@@ -1,0 +1,27 @@
+.stylish-btn{
+    background-color: #2A5631;
+    color: white;
+    border-radius: 25px;
+    padding: 7px 15px;
+    border: .3px solid #2A5631;
+    font-weight: 500;
+}
+.stylish-btn:hover{
+    background-color: white;
+    color: #2A5631;
+}
+
+
+.logo-name{
+    text-decoration: none ;
+    color: #2A5631;
+}
+
+.logo-name:hover{
+    color: #2A5631;
+}
+.input-box{
+    border: 2px solid #2A5631;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
